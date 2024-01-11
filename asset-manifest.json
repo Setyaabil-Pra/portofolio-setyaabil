@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portofolio-setyaabil/static/css/main.d6b1d32b.css",
+    "main.js": "/portofolio-setyaabil/static/js/main.2c1fed49.js",
+    "static/js/787.72f2436a.chunk.js": "/portofolio-setyaabil/static/js/787.72f2436a.chunk.js",
+    "static/media/download.jpeg": "/portofolio-setyaabil/static/media/download.bb7a7f6105e84b753393.jpeg",
+    "static/media/logowa.jpeg": "/portofolio-setyaabil/static/media/logowa.3c0d64f2e7c877679712.jpeg",
+    "index.html": "/portofolio-setyaabil/index.html",
+    "main.d6b1d32b.css.map": "/portofolio-setyaabil/static/css/main.d6b1d32b.css.map",
+    "main.2c1fed49.js.map": "/portofolio-setyaabil/static/js/main.2c1fed49.js.map",
+    "787.72f2436a.chunk.js.map": "/portofolio-setyaabil/static/js/787.72f2436a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6b1d32b.css",
+    "static/js/main.2c1fed49.js"
+  ]
+}
