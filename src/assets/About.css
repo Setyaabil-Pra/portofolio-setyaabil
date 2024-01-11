@@ -1,0 +1,54 @@
+/* src/components/About.css */
+.about-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  color: #3498db;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-item {
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.about-item:hover {
+  transform: scale(1.05);
+}
+
+.about-degree {
+  color: #3498db;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 20px;
+  background-color: #ecf0f1;
+}
+
+.about-school {
+  color: #333;
+  font-size: 18px;
+  margin: 5px 0;
+  padding: 20px;
+}
+
+.about-date {
+  color: #666;
+  font-size: 16px;
+  margin: 5px 0;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+}

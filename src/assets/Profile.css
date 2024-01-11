@@ -1,0 +1,66 @@
+/* src/components/Profile.css */
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-container:hover {
+  transform: scale(1.05);
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-picture:hover {
+  transform: scale(1.1);
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-name {
+  margin: 10px 0;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: type 2s steps(50, end);
+}
+
+.profile-title {
+  margin: 5px 0;
+  color: #666;
+  font-size: 18px;
+}
+
+.profile-description {
+  margin: 10px 0;
+  color: #777;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

@@ -1,0 +1,29 @@
+/* src/assets/Footer.css */
+.footer-container {
+  background-color: #e3e5eb;
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Add styles for your social media icons */
+.social-links img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+  transform: scale(1.2);
+}
